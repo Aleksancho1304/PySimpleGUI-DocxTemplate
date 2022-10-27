@@ -9,7 +9,7 @@ layout = [[sg.Text('Сотрудник 1'),sg.Checkbox('Присутствие',
 window = sg.Window('Список сотрудников', layout)
 
 #b = layout[0][0].DisplayText
-
+#словарь {.docx метка сотрудника:имя сотрудника из приложения}
 context = {f'sotrudnik{i+1}': '' }
 
 def func():
